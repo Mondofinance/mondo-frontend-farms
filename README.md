@@ -1,4 +1,4 @@
-# 🌶️ Pepper Finance Frontend
+# 🌶 Mondo Finance Frontend
 
 [![Netlify Status]
 
