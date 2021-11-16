@@ -18,14 +18,14 @@ const Hero = styled.div`
   justify-content: center;
   flex-direction: column;
   margin: auto;
-  margin-bottom: 32px;
-  padding-top: 116px;
+  margin-bottom: 40px;
+  padding-top: 100px;
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/egg/3.png'), url('/images/egg/3b.png');
     background-position: left center, right center;
-    height: 165px;
+    height: 200px;
     padding-top: 0;
   }
 `
@@ -59,10 +59,10 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'ZCore Finance (ZEFI)')}
+        <Heading as="h1" size="xl" mb="24px" color="primary">
+          {TranslateString(576, 'Mondo Finance')}
         </Heading>
-        <Text>{TranslateString(578, 'The Farm DEFI token on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, 'on Binance Smart Chain.')}</Text>
       </Hero>
       <div>
         <Cards>

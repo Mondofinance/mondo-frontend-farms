@@ -54,9 +54,9 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         <Text>{TranslateString(316, 'Stake')}:</Text>
         <StyledLinkExternal href={
           isTokenOnly ?
-            `https://exchange.zcore.network/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            `https://pancakeswap.finance/add/0xF5C2ee6c0601e191b79921C6AD5Aee7d85D7d9C0/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56`
             :
-          `https://exchange.zcore.network/#/add/${liquidityUrlPathParts}`
+          `https://pancakeswap.finance/add/0xF5C2ee6c0601e191b79921C6AD5Aee7d85D7d9C0/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56`
         }>
           {lpLabel}
         </StyledLinkExternal>

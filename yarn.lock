@@ -1885,9 +1885,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@zcore-coin/zefi-uikit":
+"@pancakeswap-libs/uikit@Mondofinance/Mondo-uikit":
   version "0.10.3"
-  resolved "https://codeload.github.com/zcore-coin/zefi-uikit/tar.gz/d9378be17598ff33cfc4afe08718d12c066b8e30"
+  resolved "https://codeload.github.com/Mondofinance/Mondo-uikit/tar.gz/835429417d035ac0e45666eb35d5cd6fdebf31a4"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

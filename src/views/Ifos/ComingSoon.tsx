@@ -59,12 +59,12 @@ const ComingSoon = () => {
             <Text mb={3}>
               {TranslateString(
                 504,
-                'You’ll pay for the new tokens using CAKE-BNB LP tokens, which means you need to stake equal amounts of CAKE and BNB in a liquidity pool to take part.',
+                'You’ll pay for the new tokens using Mondo-BNB LP tokens, which means you need to stake equal amounts of Mondo and BNB in a liquidity pool to take part.',
               )}
             </Text>
             <Text mb={3}>
               <LiquidityLink href="https://exchange.pancakeswap.finance/#/add/ETH/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82">
-                {TranslateString(506, 'Get CAKE-BNB LP >')}
+                {TranslateString(506, 'Get Mondo-BNB LP >')}
               </LiquidityLink>
             </Text>
             <Text mb={3}>
@@ -79,12 +79,12 @@ const ComingSoon = () => {
             <Text mb={3}>
               {TranslateString(
                 514,
-                'Launch your project with PancakeSwap, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
+                'Launch your project with MondoFinance, to bring your token directly to the most active and rapidly growing community on BSC.',
               )}
             </Text>
             <Button
               as="a"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScGdT5rrVMr4WOWr08pvcroSeuIOtEJf1sVdQGVdcAOqryigQ/viewform"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -7,43 +7,76 @@ const config: MenuEntry[] = [
     href: "/",
   },
   {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    items: [
-      {
-        label: "Exchange",
-        href: "https://swap.peps.today/x/#/swap",
+    label: 'Public Sale',
+    icon: 'IfoIcon',
+    href: "/Ifo",
       },
-      {
-        label: "Liquidity",
-        href: "https://swap.peps.today/x/#/pool",
-      },
-    ],
-  },
   {
     label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
+    label: 'Pools',
+    icon: 'PoolIcon',
+    href: '/pools',
+  },
+  {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
-        label: 'Docs',
-        href: 'https://peps.today/',
+        label: 'CoinMarketCap',
+        href: '',
       },
+      {
+        label: 'Docs',
+        href: '',
+      },      
       {
         label: 'Github',
-        href: 'https://github.com/PEPS-Project',
+        href: '',
+      },
+      
+/*      
+      {
+        label: 'CoinGecko',
+        href: 'https://www.coingecko.com/en/coins/goose-finance',
       },
       {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x019be1796178516e060072004f267b59a49a0801',
+        label: 'CoinMarketCap',
+        href: 'https://coinmarketcap.com/currencies/goose-finance/',
       },
-
+      {
+        label: 'AstroTools',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+      },
+*/      
     ],
   },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Buy Mondo',
+        href: '',
+      },
+      {
+        label: 'Buy MondoD',
+        href: '',
+      },
+      
+    ],
+  },
+   {
+    label: 'Audit By Certik',
+    icon: 'AuditIcon',
+    href: 'https://certik.org/projects',
+  },  {
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href: "https://twitter.com",
+  },
 ]
-
 export default config

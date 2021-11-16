@@ -16,6 +16,7 @@ import useI18n from 'hooks/useI18n'
 import FarmCard, { FarmWithStakedValue } from './components/FarmCard/FarmCard'
 import FarmTabButtons from './components/FarmTabButtons'
 import Divider from './components/Divider'
+import { fetchUserBalances } from 'state/pools/fetchPoolsUser'
 
 export interface FarmsProps{
   tokenMode?: boolean
@@ -57,7 +58,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
         // if (!farm.tokenAmount || !farm.lpTotalInQuoteToken || !farm.lpTotalInQuoteToken) {
         //   return farm
         // }
-        const cakeRewardPerBlock = new BigNumber(farm.zefiPerBlock || 1).times(new BigNumber(farm.poolWeight)) .div(new BigNumber(10).pow(18))
+        const cakeRewardPerBlock = new BigNumber(farm.mondoPerBlock || 1).times(new BigNumber(farm.poolWeight)) .div(new BigNumber(10).pow(18))
         const cakeRewardPerYear = cakeRewardPerBlock.times(BLOCKS_PER_YEAR)
 
         let apy = cakePrice.times(cakeRewardPerYear);
@@ -94,23 +95,23 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn ZEFI')
+            TranslateString(10002, 'Stake tokens to earn Mondo')
             :
-          TranslateString(320, 'Stake LP tokens to earn ZEFI')
+          TranslateString(320, 'Stake LP tokens to earn Mondo')
         }
       </Heading>
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-        {TranslateString(10000, 'Deposit Fee will be used to buyback ZEFI')}
+        {TranslateString(10000, 'Deposit Fee will be used to buyback Mondo')}
       </Heading>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
       <div>
         <Divider />
         <FlexLayout>
           <Route exact path={`${path}`}>
-            {stakedOnly ? farmsList(stakedOnlyFarms, false) : farmsList(activeFarms, false)}
+            {stakedOnly ? farmsList(stakedOnlyFarms, true) : farmsList(activeFarms, false)}
           </Route>
           <Route exact path={`${path}/history`}>
-            {farmsList(inactiveFarms, true)}
+            {farmsList(inactiveFarms, false)}
           </Route>
         </FlexLayout>
       </div>

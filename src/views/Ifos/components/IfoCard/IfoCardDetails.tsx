@@ -68,7 +68,7 @@ const IfoCardDetails: React.FC<IfoCardDetailsProps> = ({
           <Text>{raiseAmount}</Text>
         </Item>
         <Item>
-          <Display>{TranslateString(586, 'CAKE to burn (USD)')}</Display>
+          <Display>{TranslateString(586, ' (USD)')}</Display>
           <Text>{cakeToBurn}</Text>
         </Item>
         <Item>

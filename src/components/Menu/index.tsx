@@ -20,12 +20,12 @@ const Menu = (props) => {
       logout={reset}
       isDark={isDark}
       toggleTheme={toggleTheme}
-      currentLang={selectedLanguage && selectedLanguage.code}
+      // currentLang={selectedLanguage && selectedLanguage.code}
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
-      priceLink="https://bscscan.com/token/0x019be1796178516e060072004f267b59a49a0801"
+      priceLink=""
       {...props}
     />
   )
