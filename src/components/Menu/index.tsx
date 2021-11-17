@@ -8,11 +8,11 @@ import { Menu as UikitMenu } from '@pancakeswap-libs/uikit'
 import config from './config'
 
 const Menu = (props) => {
+  
   const { account, connect, reset } = useWallet()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
   const { isDark, toggleTheme } = useTheme()
   const cakePriceUsd = usePriceCakeBusd()
-
   return (
     <UikitMenu
       account={account}
@@ -25,6 +25,7 @@ const Menu = (props) => {
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
+      socials={config}
       priceLink=""
       {...props}
     />

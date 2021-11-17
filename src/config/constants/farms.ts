@@ -11,7 +11,7 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0xe4798560cc5b76d94e5da14739d04a07bbfe6bbf',
     },
-    tokenSymbol: 'MONDO',
+    tokenSymbol: 'PEPR',
     tokenAddresses: {
       97: '',
       56: '0x22592d3206be2c28298b8168234aedef4d50f319',
@@ -35,7 +35,8 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
-  
+ 
+
 ]
-  
+
 export default farms

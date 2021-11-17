@@ -16,7 +16,7 @@ import useI18n from 'hooks/useI18n'
 import FarmCard, { FarmWithStakedValue } from './components/FarmCard/FarmCard'
 import FarmTabButtons from './components/FarmTabButtons'
 import Divider from './components/Divider'
-import { fetchUserBalances } from 'state/pools/fetchPoolsUser'
+
 
 export interface FarmsProps{
   tokenMode?: boolean

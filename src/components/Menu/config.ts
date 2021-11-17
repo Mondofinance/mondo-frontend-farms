@@ -1,4 +1,4 @@
-import { MenuEntry } from '@pancakeswap-libs/uikit'
+import { MenuEntry ,} from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
@@ -70,7 +70,7 @@ const config: MenuEntry[] = [
     ],
   },
    {
-    label: 'Audit By Certik',
+    label: 'Audit By Certik(soon)',
     icon: 'AuditIcon',
     href: 'https://certik.org/projects',
   },  {
@@ -78,5 +78,5 @@ const config: MenuEntry[] = [
     icon: "TwitterIcon",
     href: "https://twitter.com",
   },
-]
-export default config
+  ]
+export default config 
