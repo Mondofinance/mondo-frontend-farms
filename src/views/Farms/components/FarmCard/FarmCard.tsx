@@ -43,7 +43,7 @@ const StyledCardAccent = styled.div`
   rgba(251, 7, 217, 1) 90%,
   rgba(255, 0, 0, 1) 100%);
   background-size: 300% 300%;
-  animation: ${RainbowLight} 3s linear infinite;
+  animation: ${RainbowLight} 6s linear infinite;
   border-radius: 16px;
   filter: blur(6px);
   position: absolute;
@@ -127,7 +127,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
 
   return (
     <FCard>
-      {(farm.tokenSymbol === 'Mondo' || farm.tokenSymbol === 'Mondo' || farm.tokenSymbol === 'Mondo') && <StyledCardAccent />}
+      {(farm.tokenSymbol === 'PEPR' || farm.tokenSymbol === 'BNB'|| farm.tokenSymbol === 'PEPR' ) && <StyledCardAccent />}
       <CardHeading
         lpLabel={lpLabel}
         multiplier={farm.multiplier}
