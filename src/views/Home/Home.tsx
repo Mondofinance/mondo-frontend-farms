@@ -13,7 +13,7 @@ const Hero = styled.div`
   align-items: center;
   background-image: url('/images/egg/3.png');
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: top right;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -25,7 +25,7 @@ const Hero = styled.div`
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/egg/3.png'), url('/images/egg/3b.png');
     background-position: left center, right center;
-    height: 200px;
+    height: 400px;
     padding-top: 0;
   }
 `
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="50px" color="primary">
+        <Heading as="h1" size="xl" mb="100px" color="#33FFFF">
           {TranslateString(576, 'Moondo Finance')}
         </Heading>
         <Text>{TranslateString(578, '')}</Text>

@@ -35,14 +35,12 @@ const CakeStats = () => {
   let peprPerBlock = 0;
   if(farms && farms[0] && farms[0].peprPerBlock){
     peprPerBlock = new BigNumber(farms[0].peprPerBlock).div(new BigNumber(10).pow(18)).toNumber();
-  
   }
-
   return (
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'PePr Stats')}
+          {TranslateString(534, 'Mondo Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
@@ -61,7 +59,7 @@ const CakeStats = () => {
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-        <Text fontSize="14px">{TranslateString(540, 'New PEPR/block')}</Text>
+        <Text fontSize="14px">{TranslateString(540, 'New Mondo/block')}</Text>
           <Text bold fontSize="14px">{peprPerBlock}</Text>
         </Row>
       </CardBody>
