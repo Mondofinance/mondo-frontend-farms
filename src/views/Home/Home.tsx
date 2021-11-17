@@ -59,10 +59,10 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="primary">
-          {TranslateString(576, 'Mondo Finance')}
+        <Heading as="h1" size="xl" mb="50px" color="primary">
+          {TranslateString(576, 'Moondo Finance')}
         </Heading>
-        <Text>{TranslateString(578, 'on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, '')}</Text>
       </Hero>
       <div>
         <Cards>

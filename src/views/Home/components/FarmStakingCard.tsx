@@ -18,21 +18,21 @@ import { getBalanceNumber } from '../../../utils/formatBalance'
 const StyledFarmStakingCard = styled(Card)`
   background-image: url('/images/egg/2a.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
-  min-height: 376px;
+  background-position: top right;
+  min-height: 350px;
 `
 
 const Block = styled.div`
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 `
 
 const CardImage = styled.img`
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 `
 
 const Label = styled.div`
   color: ${({ theme }) => theme.colors.textSubtle};
-  font-size: 14px;
+  font-size: 20px;
 `
 
 const Actions = styled.div`
@@ -69,7 +69,7 @@ const FarmedStakingCard = () => {
     <StyledFarmStakingCard>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(542, 'Farms & Staking')}
+          {TranslateString(542, 'Farms Pools')}
         </Heading>
         <CardImage src="/images/egg/2.png" alt="cake logo" width={64} height={64} />
         <Block>
