@@ -6,7 +6,6 @@ import useTheme from 'hooks/useTheme'
 import { usePriceCakeBusd } from 'state/hooks'
 import { Menu as UikitMenu } from '@pancakeswap-libs/uikit'
 import config from './config'
-
 const Menu = (props) => {
   
   const { account, connect, reset } = useWallet()
