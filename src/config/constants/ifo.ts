@@ -81,7 +81,7 @@ const ifos: Ifo[] = [
     id: 'soteria',
     address: '0xbbe61Ca9a3c73D04e637EC204058a50C21aD2e18',
     isActive: true,
-    name: 'Mondo Finance RFI',
+    name: 'MondoD',
     subTitle: '',
     description:
       '',
