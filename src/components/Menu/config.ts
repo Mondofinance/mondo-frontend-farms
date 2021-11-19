@@ -1,4 +1,4 @@
-import { MenuEntry, } from '@pancakeswap-libs/uikit'
+import { MenuEntry,} from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
@@ -145,7 +145,7 @@ const config: MenuEntry[] = [
     {
       label: "Twitter",
       icon: "TwitterIcon",
-      href: "https://twitter.com/",
+      href: "https://twitter.com/mondo_finance",
     },
   ];
   
