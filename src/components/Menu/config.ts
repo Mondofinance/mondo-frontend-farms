@@ -145,7 +145,7 @@ const config: MenuEntry[] = [
     {
       label: "Twitter",
       icon: "TwitterIcon",
-      href: "https://twitter.com/mondo_finance",
+      href: "https://twitter.com/",
     },
   ];
   
