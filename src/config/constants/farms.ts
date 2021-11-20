@@ -40,7 +40,7 @@ const farms: FarmConfig[] = [
   {
     pid: 8,
     risk: 5,
-    lpSymbol: 'MondoD-BUSD LP',
+    lpSymbol: 'MondooD-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x24b87c29e907d6329ed8fd6d7b2ecb074089093e',
@@ -57,7 +57,7 @@ const farms: FarmConfig[] = [
   {
     pid: 9,
     risk: 5,
-    lpSymbol: 'MondoD-BNB LP',
+    lpSymbol: 'MoondoD-BNB LP',
     lpAddresses: {
       97: '',
       56: '0x0e6027880a04677bae5e4225000078ee92904bf6',
