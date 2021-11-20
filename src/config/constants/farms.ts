@@ -100,6 +100,72 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },   
+  {
+    pid: 7,
+    risk: 5,
+    lpSymbol: 'DAI-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x3aB77e40340AB084c3e23Be8e5A6f7afed9D41DC',
+    },
+    tokenSymbol: 'DAI',
+    tokenAddresses: {
+      97: '',
+      56: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },       
+  {
+    pid: 9,
+    risk: 2,
+    lpSymbol: 'ETH-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x70d8929d04b60af4fb9b58713ebcf18765ade422',
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+      97: '',
+      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },     
+  {
+    pid: 4,
+    risk: 5,
+    isTokenOnly: true,    
+    lpSymbol: 'Mondo',
+    lpAddresses: {
+      97: '',
+      56: '0xe4798560cc5b76d94e5da14739d04a07bbfe6bbf', // ZEFI-BUSD LP
+    },
+    tokenSymbol: 'ZEFI',
+    tokenAddresses: {
+      97: '',
+      56: '0x22592D3206BE2c28298b8168234aeDEf4d50F319',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 11,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'DAI',
+    lpAddresses: {
+      97: '',
+      56: '0x3ab77e40340ab084c3e23be8e5a6f7afed9d41dc', // DAI-BUSD LP
+    },
+    tokenSymbol: 'DAI',
+    tokenAddresses: {
+      97: '',
+      56: '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },      
   
 ]
 
