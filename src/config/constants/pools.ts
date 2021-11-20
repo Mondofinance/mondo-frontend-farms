@@ -2,23 +2,25 @@ import { PoolConfig, QuoteToken, PoolCategory } from './types'
 
 const pools: PoolConfig[] = [
   {
-     sousId: 0,
-    tokenName: 'CAKE',
+     sousId: 3,
+    tokenName: 'Cake',
     stakingTokenName: QuoteToken.CAKE,
-     stakingTokenAddress: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
+     stakingTokenAddress: '0x22592d3206be2c28298b8168234aedef4d50f319',
      contractAddress: {
       97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
-      56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
+      56: '0xa9BabFdA4Aa92245d03bA2832066C734c1b2dec6',
      },
      poolCategory: PoolCategory.CORE,
-    projectLink: 'https://pancakeswap.finance/',
+    projectLink: 'moondo.finance',
      harvest: true,
      tokenPerBlock: '10',
      sortOrder: 1,
      isFinished: false,
      tokenDecimals: 18,
    },
+  
+  
+ 
+]
 
-  ]
-
-  export default pools
+export default pools
