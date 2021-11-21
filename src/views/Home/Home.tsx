@@ -58,7 +58,7 @@ const Home: React.FC = () => {
 
   return (
     <Page>
-      <Hero>
+       <Hero>
         <Heading as="h1" size="xl" mb="50px" color="#33FFFF">
           {TranslateString(576, 'Moondo Finance')}
         </Heading>

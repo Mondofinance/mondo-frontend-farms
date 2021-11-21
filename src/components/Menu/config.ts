@@ -7,6 +7,17 @@ const config: MenuEntry[] = [
     href: "/",
   },
   {
+    label: 'SeedSale(MoondoD)',
+    icon: 'TicketIcon',
+    href: "",
+      },
+        {
+        label: 'PrivateSale(MoondoD)',
+        icon: 'TicketIcon',
+        href: "",
+          },
+  
+  {
     label: 'Public Sale',
     icon: 'IfoIcon',
     href: "/Ifo",
@@ -16,6 +27,7 @@ const config: MenuEntry[] = [
     icon: 'FarmIcon',
     href: '/farms',
   },
+  
   {
     label: 'Pools',
     icon: 'PoolIcon',
@@ -30,6 +42,11 @@ const config: MenuEntry[] = [
         href: '',
       },
       {
+        label: 'CoinGecko',
+        href: '',
+      },
+      
+       {
         label: 'Docs',
         href: '',
       },      
@@ -38,12 +55,9 @@ const config: MenuEntry[] = [
         href: '',
       },
       
-/*      
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
+     
+     
+/*      {
         label: 'CoinMarketCap',
         href: 'https://coinmarketcap.com/currencies/goose-finance/',
       },
@@ -73,11 +87,8 @@ const config: MenuEntry[] = [
     label: 'Audit By Certik(soon)',
     icon: 'AuditIcon',
     href: 'https://certik.org/projects',
-  },  {
-    label: "Twitter",
-    icon: "TwitterIcon",
-    href: "https://twitter.com/mondo_finance",
   },
+
   ]
   const socials = [
     {
