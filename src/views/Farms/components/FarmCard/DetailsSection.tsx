@@ -54,7 +54,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         <Text>{TranslateString(316, 'Stake')}:</Text>
         <StyledLinkExternal href={
           isTokenOnly ?
-            `https://pancakeswap.finance/add/0xF5C2ee6c0601e191b79921C6AD5Aee7d85D7d9C0/0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56`
+            `https://pancakeswap.finance/add`
             :
           ``
         }>

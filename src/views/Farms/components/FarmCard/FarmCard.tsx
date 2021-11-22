@@ -58,11 +58,11 @@ const FCard = styled.div`
   align-self: baseline;
   background: ${(props) => props.theme.card.background};
   border-radius: 32px;
-  box-shadow: 0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05);
+  box-shadow: 1px 10px 12px -8px rgba(25, 19, 28, 0.2), 2px 1px 1px rgba(25, 19, 38, 0.05);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 24px;
+  padding: 20px;
   position: relative;
   text-align: center;
 `
@@ -127,7 +127,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
 
   return (
     <FCard>
-      {(farm.tokenSymbol === 'PEPR' || farm.tokenSymbol === 'ZEFI'|| farm.tokenSymbol === 'USDT'||farm.tokenSymbol === 'BNB' ) && <StyledCardAccent />}
+      {(farm.tokenSymbol === 'PEPR' || farm.tokenSymbol === 'ZEFI'|| farm.tokenSymbol === 'USDT'||farm.tokenSymbol === 'BNB'||farm.tokenSymbol === 'EGG'||farm.tokenSymbol === 'CAKE' ) && <StyledCardAccent />}
       <CardHeading
         lpLabel={lpLabel}
         multiplier={farm.multiplier}
