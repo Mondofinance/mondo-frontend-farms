@@ -15,7 +15,7 @@ const BlockContextProvider = ({ children }) => {
         previousBlock.current = blockNumber
         setBlock(blockNumber)
       }
-    }, 6000)
+    }, 1000)
 
     return () => clearInterval(interval)
   }, [])

@@ -4,22 +4,22 @@ const ifos: Ifo[] = [
 
   {
     id: 'soteria',
-    address: '0xbbe61Ca9a3c73D04e637EC204058a50C21aD2e18',
+    address: '0x5a1067a76060bddcb328b7c388936a9dfc09ed4d',
     isActive: true,
     name: 'MoondoD',
-    subTitle: 'disinflationary',
+    subTitle: 'Seedsale',
     description:
-      '',
-    launchDate: 'NOV. 29',
-    launchTime: '4PM SGT',
-    saleAmount: ' MoondoD',
-    raiseAmount: '$',
-    cakeToBurn: '$',
+      'MoondoD fork RFI - burn all the transaction 2%-antibot set in listing-MoondoFinance main token. utility: high apr in pools, whitelist holders in Launchpad zone airdrops-nft vip pools. white list Moondo Dao. ',
+    launchDate: 'NOV. 23',
+    launchTime: '11PM GMT',
+    saleAmount: '6.600.000 MoondoD',
+    raiseAmount: '$132.000',
+    cakeToBurn: '$132.000',
     projectSiteUrl: 'moondo.finance',
     currency: 'BUSD',
-    currencyAddress: '0x7EFaEf62fDdCCa950418312c6C91Aef321375A00',
+    currencyAddress: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
     tokenDecimals: 18,
-    releaseBlockNumber: 12805796
+    releaseBlockNumber: 13062246
   },
 ]
 

@@ -9,13 +9,8 @@ const config: MenuEntry[] = [
   {
     label: 'SeedSale(MoondoD)',
     icon: 'TicketIcon',
-    href: "",
+    href: "/Ifo",
       },
-        {
-        label: 'PrivateSale(MoondoD)',
-        icon: 'TicketIcon',
-        href: "",
-          },
   
   {
     label: 'Public Sale',

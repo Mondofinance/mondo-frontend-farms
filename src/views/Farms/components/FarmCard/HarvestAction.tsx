@@ -21,7 +21,7 @@ const BalanceAndCompound = styled.div`
 
 const HarvestAction: React.FC<FarmCardActionsProps> = ({ earnings, pid }) => {
   const TranslateString = useI18n()
-  const [pendingTx, setPendingTx] = useState(false)
+  const [ pendingTx , setPendingTx] = useState(false)
   const { onReward } = useHarvest(pid)
   const { onStake } = useStake(pid)
 
@@ -33,7 +33,7 @@ const HarvestAction: React.FC<FarmCardActionsProps> = ({ earnings, pid }) => {
     <Flex mb='8px' justifyContent='space-between' alignItems='center'>
       <Heading color={rawEarningsBalance === 0 ? 'textDisabled' : 'text'}>{displayBalance}</Heading>
       <BalanceAndCompound>
-        {pid === 14 ?
+        {pid === 9?
           <Button
             disabled={rawEarningsBalance === 0 || pendingTx}
             size='sm'
