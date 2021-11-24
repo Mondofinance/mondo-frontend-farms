@@ -34,11 +34,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'CoinMarketCap',
-        href: '',
+        href: 'https://coinmarketcap.com/',
       },
       {
         label: 'CoinGecko',
-        href: '',
+        href: 'https://www.coingecko.com/en',
       },
       
        {
@@ -83,6 +83,13 @@ const config: MenuEntry[] = [
     icon: 'AuditIcon',
     href: 'https://certik.org/projects',
   },
+  {
+    label: 'MoondoDAO(soon fork ohm)',
+    icon: 'ListingIcon',
+    href: '',
+  },
+
+
 
   ]
   const socials = [
