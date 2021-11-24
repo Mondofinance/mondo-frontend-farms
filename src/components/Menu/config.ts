@@ -47,7 +47,7 @@ const config: MenuEntry[] = [
       },      
       {
         label: 'Github',
-        href: '',
+        href: 'https://github.com/Mondofinance',
       },
       
      
