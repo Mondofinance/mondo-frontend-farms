@@ -18,22 +18,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   }, 
-  {
-    pid: 16,
-    risk: 1,
-    lpSymbol: 'MoondoD-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0xe2371E641d7839f5c4E8e1054d21f47DDb165BD3',
-    },
-    tokenSymbol: 'ZEFI',
-    tokenAddresses: {
-      97: '',
-      56: '0xdcd2c8cae9d502a7bdda98b0b34f7060bb5cf522',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },   
+ 
   {
     pid: 1,
     risk: 1,
@@ -51,22 +36,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   
-  {
-    pid: 0,
-    risk: 1,
-    lpSymbol: 'Mondo-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0x5ef93d72202665df6e934833a64fea75648ce765',
-    },
-    tokenSymbol: 'PEPR',
-    tokenAddresses: {
-      97: '',
-      56: '0xe75c860aaa0b263b21082ba38e5ba91742322f92',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
+  
  
   {
     pid: 2,

@@ -27,8 +27,8 @@ const Hero = () => {
   return (
     <StyledHero>
       <Container>
-        <Title>{TranslateString(500, 'Pre-Sale: Initial Offerings')}</Title>
-        <Blurb>{TranslateString(502, 'Buy new tokens with a brand new token sale model.')}</Blurb>
+        <Title>{TranslateString(500, 'LaunchZone:contribute your tokens and participate in exclusive presales')}</Title>
+        <Blurb>{TranslateString(502, 'Exclusive Projects moondo.finance holders')}</Blurb>
       </Container>
     </StyledHero>
   )

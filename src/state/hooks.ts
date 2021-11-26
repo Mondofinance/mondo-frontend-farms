@@ -69,7 +69,7 @@ export const usePoolFromPid = (sousId): Pool => {
 // Prices
 
 export const usePriceBnbBusd = (): BigNumber => {
-  const pid = 0 // BUSD-BNB LP
+  const pid = 2 // BUSD-BNB LP
   const farm = useFarmFromPid(pid)
   // ZCORE
   // return ZERO

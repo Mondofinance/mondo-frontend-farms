@@ -10,10 +10,16 @@ const config: MenuEntry[] = [
     label: 'SeedSale(MoondoD)',
     icon: 'TicketIcon',
     href: "/Ifo",
+    items: [
+      {
+        label: 'tokenomics',
+        href: 'https://drive.google.com/file/d/1oqUHc5SppGUTyE48UGbAT3SZLg5ItZMG/view?usp=sharing',
       },
-  
+   ]
+  },
+
   {
-    label: 'Public Sale',
+    label: 'LaunchZone',
     icon: 'IfoIcon',
     href: "/Ifo",
       },
@@ -45,10 +51,7 @@ const config: MenuEntry[] = [
         label: 'Docs',
         href: '',
       },      
-      {
-        label: 'Github',
-        href: 'https://github.com/Mondofinance',
-      },
+      
       
      
      
@@ -85,10 +88,14 @@ const config: MenuEntry[] = [
   },
   {
     label: 'MoondoDAO(soon fork ohm)',
-    icon: 'ListingIcon',
+    icon: 'BarnIcon',
     href: '',
   },
-
+  {
+    label: 'Github',
+    icon: 'GithubIcon',
+    href: 'https://github.com/Mondofinance',
+  },
 
 
   ]
