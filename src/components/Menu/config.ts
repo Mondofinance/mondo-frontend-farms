@@ -7,7 +7,7 @@ const config: MenuEntry[] = [
     href: "/",
   },
   {
-    label: 'SeedSale(MoondoD)',
+    label: 'PublicSale(MoondoD)',
     icon: 'TicketIcon',
     href: "/Ifo",
     items: [
@@ -49,7 +49,7 @@ const config: MenuEntry[] = [
       
        {
         label: 'Docs',
-        href: '',
+        href: 'https://moondo-finance.gitbook.io/mondo-finance-docs-v1.0/',
       },      
       
       
