@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'MoondoD-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x7a8b7Aae36EDdfF29C85d3D96932DA6B9Baa7de1',
+      56: '0x644a272CB3589e6Afe5077A1DB6fd214D68A3269',
     },
     tokenSymbol: 'ZEFI',
     tokenAddresses: {
@@ -180,7 +180,7 @@ const farms: FarmConfig[] = [
   lpSymbol: 'MoondoD',
   lpAddresses: {
     97: '',
-    56: '0x7a8b7Aae36EDdfF29C85d3D96932DA6B9Baa7de1', // ZEFI-BUSD LP
+    56: '0x644a272CB3589e6Afe5077A1DB6fd214D68A3269', // mondod-BUSD LP
   },
   tokenSymbol: 'EGG',
   tokenAddresses: {
@@ -418,10 +418,6 @@ const farms: FarmConfig[] = [
   quoteTokenSymbol: QuoteToken.BUSD,
   quoteTokenAdresses: contracts.busd,
 },
-
-
-
-
 
 
 
