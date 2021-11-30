@@ -7,7 +7,7 @@ const config: MenuEntry[] = [
     href: "/",
   },
   {
-    label: 'PublicSale(MoondoD)',
+    label: 'MoondoD',
     icon: 'TicketIcon',
     href: "/Ifo",
     items: [
@@ -17,8 +17,19 @@ const config: MenuEntry[] = [
       },
    ]
   },
-
   {
+    label: 'Mondo',
+    icon: 'TicketIcon',
+    href: "/Ifo",
+    items: [
+      {
+        label: 'tokenomics',
+        href: '',
+      },
+   ]
+  },
+
+ {
     label: 'LaunchZone',
     icon: 'IfoIcon',
     href: "/Ifo",
@@ -72,19 +83,42 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Buy Mondo',
-        href: '',
+        href: 'https://pancakeswap.finance',
       },
       {
-        label: 'Buy MondoD',
-        href: '',
+        label: 'Buy MoondoD',
+        href: 'https://pancakeswap.finance/swap?outputCurrency=0x2B46026B785c44996b76d1acc1BFDA0ebA429412',
       },
       
     ],
   },
+  {
+    label: 'Contracts',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'MondoMasterchef',
+        href: 'https://bscscan.com/address/0x1f2952769ED1ce42fFe57274fF44D155D74C8e1e',
+      },
+      {
+        label: 'Mondo',
+        href: 'https://bscscan.com/token/0x75252c28C49981036d42d12BF6B3934B980820E3',
+      },
+      {
+        label: 'MoondoD',
+        href: 'https://bscscan.com/token/0x2B46026B785c44996b76d1acc1BFDA0ebA429412',
+      },
+      
+    ],
+
+
+
+
+  },
    {
-    label: 'Audit By Certik(soon)',
+    label: 'Audit By Paladin(in process)',
     icon: 'AuditIcon',
-    href: 'https://certik.org/projects',
+    href: 'https://paladinsec.co/',
   },
   {
     label: 'MoondoDAO(soon fork ohm)',
