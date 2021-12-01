@@ -9,7 +9,7 @@ const config: MenuEntry[] = [
   {
     label: 'MoondoD',
     icon: 'TicketIcon',
-    href: "/Ifo",
+    href: "",
     items: [
       {
         label: 'tokenomics',
@@ -50,12 +50,16 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/',
+        label: 'MondoMasterchef',
+        href: 'https://bscscan.com/address/0x1f2952769ED1ce42fFe57274fF44D155D74C8e1e',
       },
       {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en',
+        label: 'Mondo',
+        href: 'https://bscscan.com/token/0x75252c28C49981036d42d12BF6B3934B980820E3',
+      },
+      {
+        label: 'MoondoD',
+        href: 'https://bscscan.com/token/0x2B46026B785c44996b76d1acc1BFDA0ebA429412',
       },
       
        {
@@ -91,35 +95,28 @@ const config: MenuEntry[] = [
       },
       
     ],
-  },
-  {
-    label: 'Contracts',
-    icon: 'MoreIcon',
-    items: [
-      {
-        label: 'MondoMasterchef',
-        href: 'https://bscscan.com/address/0x1f2952769ED1ce42fFe57274fF44D155D74C8e1e',
-      },
-      {
-        label: 'Mondo',
-        href: 'https://bscscan.com/token/0x75252c28C49981036d42d12BF6B3934B980820E3',
-      },
-      {
-        label: 'MoondoD',
-        href: 'https://bscscan.com/token/0x2B46026B785c44996b76d1acc1BFDA0ebA429412',
-      },
-      
-    ],
+  
 
 
 
 
   },
    {
-    label: 'Audit By Paladin(in process)',
+    label: 'Audit By Paladin',
     icon: 'AuditIcon',
-    href: 'https://paladinsec.co/',
+    href: 'https://paladinsec.co/projects/moondo-finance/',
   },
+  {
+    label: 'KYC By rugdoc',
+    icon: 'AuditIcon',
+    href: 'https://rugdoc.io/',
+  },
+  
+  
+  
+  
+  
+  
   {
     label: 'MoondoDAO(soon fork ohm)',
     icon: 'BarnIcon',

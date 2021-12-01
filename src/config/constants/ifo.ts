@@ -19,7 +19,7 @@ const ifos: Ifo[] = [
     currency: 'BUSD',
     currencyAddress: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
     tokenDecimals: 18,
-    releaseBlockNumber: 13162246
+    releaseBlockNumber: 13284000
   },
   
 ]
