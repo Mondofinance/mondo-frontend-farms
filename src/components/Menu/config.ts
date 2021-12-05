@@ -6,28 +6,28 @@ const config: MenuEntry[] = [
     icon: 'HomeIcon',
     href: "/",
   },
-  {
-    label: 'MoondoD',
-    icon: 'TicketIcon',
-    href: "",
-    items: [
-      {
-        label: 'tokenomics',
-        href: 'https://drive.google.com/file/d/1oqUHc5SppGUTyE48UGbAT3SZLg5ItZMG/view?usp=sharing',
-      },
-   ]
-  },
-  {
-    label: 'Mondo',
-    icon: 'TicketIcon',
-    href: "/Ifo",
-    items: [
-      {
-        label: 'tokenomics',
-        href: '',
-      },
-   ]
-  },
+ // {
+ //   label: 'MoondoD',
+ //   icon: 'TicketIcon',
+ //   href: "",
+ //   items: [
+ //     {
+ //       label: 'tokenomics',
+ //       href: 'https://drive.google.com/file/d/1oqUHc5SppGUTyE48UGbAT3SZLg5ItZMG/view?usp=sharing',
+ //     },
+ //  ]
+ // },
+ // {
+ //   label: 'Mondo',
+ //   icon: 'TicketIcon',
+ //   href: "/Ifo",
+ //   items: [
+ //     {
+ //       label: 'tokenomics',
+ //       href: '',
+ //     },
+ //  ]
+ // },
 
  {
     label: 'LaunchZone',

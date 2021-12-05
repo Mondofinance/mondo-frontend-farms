@@ -38,6 +38,23 @@ const farms: FarmConfig[] = [
   }, 
  
   {
+    pid: 23,
+    risk: 1,
+    lpSymbol: 'MBOX-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x8FA59693458289914dB0097F5F366d771B7a7C3F',
+    },
+    tokenSymbol: 'wzcr',
+    tokenAddresses: {
+      97: '',
+      56: '0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+
+ {
     pid: 0,
     risk: 2,
     lpSymbol: 'BNB-BUSD LP',
@@ -189,94 +206,6 @@ const farms: FarmConfig[] = [
  // quoteTokenAdresses: contracts.busd,
    // },
 {
-  pid: 8,
-  risk: 3,
-  isTokenOnly: true,
-  lpSymbol: 'XWG',
-  lpAddresses: {
-    97: '',
-    56: '0xb945abF2088591Eae759777aB36c220320363026', // XWG-BUSD LP
-  },
-  tokenSymbol: 'AUTO',
-  tokenAddresses: {
-    97: '',
-    56: '0x6b23c89196deb721e6fd9726e6c76e4810a464bc',
-  },
-  quoteTokenSymbol: QuoteToken.BUSD,
-  quoteTokenAdresses: contracts.busd,
-},
-
- {
-  pid: 9,
-  risk: 3,
-  isTokenOnly: true,
-  lpSymbol: 'ETERNAL',
-  lpAddresses: {
-    97: '',
-    56: '0xc49D3d97F1538Ad5c6BC271b932552c7e8352D37', // ETERNAL-BUSD LP
-  },
-  tokenSymbol: 'dot-bnb',
-  tokenAddresses: {
-    97: '',
-    56: '0xd44fd09d74cd13838f137b590497595d6b3feea4',
-  },
-  quoteTokenSymbol: QuoteToken.BUSD,
-  quoteTokenAdresses: contracts.busd,
-},
-{
-  pid: 10,
-  risk: 3,
-  isTokenOnly: true,
-  lpSymbol: 'ZOO',
-  lpAddresses: {
-    97: '',
-    56: '0xd5D00B0aD40FF6d8C1a6F7e72F185B6fB3c3fd1F', // ZOO-BUSD LP
-  },
-  tokenSymbol: 'BSCX',
-  tokenAddresses: {
-    97: '',
-    56: '0x1d229b958d5ddfca92146585a8711aecbe56f095',
-  },
-  quoteTokenSymbol: QuoteToken.BUSD,
-  quoteTokenAdresses: contracts.busd,
-},
-{
-  pid: 11,
-  risk: 3,
-  isTokenOnly: true,
-  lpSymbol: 'SLP',
-  lpAddresses: {
-    97: '',
-    56: '0xaF6E0e31e50575e51A8285a2D9AAe9d3A2Ad82EA', // SLP-BUSD LP
-  },
-  tokenSymbol: 'DOT',
-  tokenAddresses: {
-    97: '',
-    56: '0x070a08beef8d36734dd67a491202ff35a6a16d97',
-  },
-  quoteTokenSymbol: QuoteToken.BUSD,
-  quoteTokenAdresses: contracts.busd,
-},
-
-{
-  pid: 12,
-  risk: 3,
-  isTokenOnly: true,
-  lpSymbol: 'PVU',
-  lpAddresses: {
-    97: '',
-    56: '0x27de951fe107A4da3f849015F4F00D6E0df37c3b', // PVU-BUSD LP
-  },
-  tokenSymbol: 'EGG-BNB',
-  tokenAddresses: {
-    97: '',
-    56: '0x31471e0791fcdbe82fbf4c44943255e923f1b794',
-  },
-  quoteTokenSymbol: QuoteToken.BUSD,
-  quoteTokenAdresses: contracts.busd,
-},
-
-{
   pid: 13,
   risk: 3,
   isTokenOnly: true,
@@ -415,7 +344,110 @@ const farms: FarmConfig[] = [
   quoteTokenSymbol: QuoteToken.BUSD,
   quoteTokenAdresses: contracts.busd,
 },
+{
+  pid: 24,
+  risk: 3,
+  isTokenOnly: true,
+  lpSymbol: 'MBOX',
+  lpAddresses: {
+    97: '',
+    56: '0x8FA59693458289914dB0097F5F366d771B7a7C3F', // MBOX-BUSD LP
+  },
+  tokenSymbol: 'wzcr-busd',
+  tokenAddresses: {
+    97: '',
+    56: '0x3203c9e46ca618c8c1ce5dc67e7e9d75f5da2377',
+  },
+  quoteTokenSymbol: QuoteToken.BNB,
+  quoteTokenAdresses: contracts.wbnb,
+},
 
+{
+  pid: 8,
+  risk: 3,
+  isTokenOnly: true,
+  lpSymbol: 'XWG',
+  lpAddresses: {
+    97: '',
+    56: '0xb945abF2088591Eae759777aB36c220320363026', // XWG-BUSD LP
+  },
+  tokenSymbol: 'AUTO',
+  tokenAddresses: {
+    97: '',
+    56: '0x6b23c89196deb721e6fd9726e6c76e4810a464bc',
+  },
+  quoteTokenSymbol: QuoteToken.BUSD,
+  quoteTokenAdresses: contracts.busd,
+},
+{
+  pid: 9,
+  risk: 3,
+  isTokenOnly: true,
+  lpSymbol: 'ETERNAL',
+  lpAddresses: {
+    97: '',
+    56: '0xc49D3d97F1538Ad5c6BC271b932552c7e8352D37', // ETERNAL-BUSD LP
+  },
+  tokenSymbol: 'dot-bnb',
+  tokenAddresses: {
+    97: '',
+    56: '0xd44fd09d74cd13838f137b590497595d6b3feea4',
+  },
+  quoteTokenSymbol: QuoteToken.BUSD,
+  quoteTokenAdresses: contracts.busd,
+},
+{
+  pid: 10,
+  risk: 3,
+  isTokenOnly: true,
+  lpSymbol: 'ZOO',
+  lpAddresses: {
+    97: '',
+    56: '0xd5D00B0aD40FF6d8C1a6F7e72F185B6fB3c3fd1F', // ZOO-BUSD LP
+  },
+  tokenSymbol: 'BSCX',
+  tokenAddresses: {
+    97: '',
+    56: '0x1d229b958d5ddfca92146585a8711aecbe56f095',
+  },
+  quoteTokenSymbol: QuoteToken.BUSD,
+  quoteTokenAdresses: contracts.busd,
+},
+{
+  pid: 11,
+  risk: 3,
+  isTokenOnly: true,
+  lpSymbol: 'SLP',
+  lpAddresses: {
+    97: '',
+    56: '0xaF6E0e31e50575e51A8285a2D9AAe9d3A2Ad82EA', // SLP-BUSD LP
+  },
+  tokenSymbol: 'DOT',
+  tokenAddresses: {
+    97: '',
+    56: '0x070a08beef8d36734dd67a491202ff35a6a16d97',
+  },
+  quoteTokenSymbol: QuoteToken.BUSD,
+  quoteTokenAdresses: contracts.busd,
+},
+
+{
+  pid: 12,
+  risk: 3,
+  isTokenOnly: true,
+  lpSymbol: 'PVU',
+  lpAddresses: {
+    97: '',
+    56: '0x27de951fe107A4da3f849015F4F00D6E0df37c3b', // PVU-BUSD LP
+  },
+  tokenSymbol: 'EGG-BNB',
+  tokenAddresses: {
+    97: '',
+    56: '0x31471e0791fcdbe82fbf4c44943255e923f1b794',
+  },
+  quoteTokenSymbol: QuoteToken.BUSD,
+  quoteTokenAdresses: contracts.busd,
+},
 
 
 
